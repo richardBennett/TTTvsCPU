@@ -249,6 +249,7 @@ public class TTTbot
             if(centerMove[0] == 1) centerMove[0] = 2;
             centerMove[1] = random.nextInt(2);
             if(centerMove[1] == 1) centerMove[1] = 2;
+            firstMove = false;
             return centerMove;
         }
         firstMove = false;
